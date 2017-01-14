@@ -493,6 +493,63 @@
                 "resourcePath": "objects\\obj_bullet\\obj_bullet.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "932a3bf1-07a0-4e3c-a0a4-23a7fbf6575f",
+            "Value": {
+                "id": "5a75b34a-84bc-474c-a273-f17ce3094bed",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\spr_asteroid\\spr_asteroid.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "db197921-c20a-4b03-b6ad-791306c653b6",
+            "Value": {
+                "id": "2dffcf43-ff09-46c5-803d-a13cf526c2a8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\obj_asteroid\\obj_asteroid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6e8de2cb-1187-4fe4-8aa7-658825e6eb98",
+            "Value": {
+                "id": "823e8e2d-e049-4d90-b11e-20ff0ca0ea8d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\cont_debug_info\\cont_debug_info.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [
