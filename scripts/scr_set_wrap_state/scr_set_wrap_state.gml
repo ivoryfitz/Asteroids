@@ -1,5 +1,5 @@
 ///scr_set_wrap_state()
-if(!variable_instance_exists(id, "isGhost") || !isGhost) {
+if(!isGhost) {
   if (x + sprite_width / 2  > room_width) {
     wrapStateX = WRAP_STATE.WRAP_LEFT;
     if (x - sprite_width / 2 > room_width) {
@@ -43,7 +43,7 @@ if(!variable_instance_exists(id, "isGhost") || !isGhost) {
   }
 
   if (wrapStateY == WRAP_STATE.NONE && wrapStateX == WRAP_STATE.NONE) {
-    if (variable_instance_exists(id, "ghost") && instance_exists(ghost)) {
+    if (instance_exists(ghost)) {
       scr_print("Ghost Despawned", "Ghost", ghost, "Real", id);
       instance_destroy(ghost, false);
     }

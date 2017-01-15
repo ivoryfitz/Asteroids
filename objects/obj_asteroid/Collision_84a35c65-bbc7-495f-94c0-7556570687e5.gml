@@ -3,7 +3,7 @@ if(isGhost) {
   instance_destroy();
   instance_destroy(corporealInstance, false);
 } else {
-  if (variable_instance_exists(id, "ghost") && instance_exists(ghost)) {
+  if (instance_exists(ghost)) {
     scr_print("Real Asteroid With Active Ghost Bullet Collision", "Real", id, "Ghost", ghost);
     instance_destroy(ghost, false);
   }

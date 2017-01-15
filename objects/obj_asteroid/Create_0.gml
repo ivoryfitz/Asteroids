@@ -1,3 +1,5 @@
+event_inherited();
+
 while(distance_to_object(obj_player) < 200) {
   x = random(room_width);
   y = random(room_height);

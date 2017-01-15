@@ -1,8 +1,4 @@
 ///scr_draw_wrap_ghosts()
-if (!variable_instance_exists(id, "isGhost")) {
-  isGhost = false;
-}
-
 if (!isGhost && (wrapStateX != WRAP_STATE.NONE || wrapStateY != WRAP_STATE.NONE)) {
   var ghostShipX = x;
   var ghostShipY = y;
@@ -32,7 +28,7 @@ if (!isGhost && (wrapStateX != WRAP_STATE.NONE || wrapStateY != WRAP_STATE.NONE)
       ghostShipY = y;
   }
   
-  if (!variable_instance_exists(id, "ghost") || !instance_exists(ghost)) {
+  if (!instance_exists(ghost)) {
     ghost = instance_copy(false);
     scr_print("Ghost Spawned", "Ghost", ghost, "Real", id);
     ghost.isGhost = true;
