@@ -5,3 +5,5 @@ enum WRAP_STATE {
   WRAP_TOP,
   WRAP_BOTTOM
 }
+
+global.score = 0;

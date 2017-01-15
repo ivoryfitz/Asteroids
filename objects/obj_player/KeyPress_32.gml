@@ -4,3 +4,4 @@ var bullet = instance_create_layer(x + xOffset, y + yOffset, "Instances", obj_bu
 bullet.image_angle = image_angle;
 bullet.speed = 15;
 bullet.direction = image_angle;
+audio_play_sound(snd_shoot, 0, 0);

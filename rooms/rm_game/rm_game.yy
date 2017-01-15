@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "name": "rm_game",
     "IsDnD": false,
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -16,7 +16,8 @@
         "330cdb69-d3d2-42aa-b773-38204f93abac",
         "3e5dc9f2-fc8b-49b0-8797-4193e4615a46",
         "9a78cd7a-30d6-49f2-a899-7dd0816c16e8",
-        "640bf5a5-b341-4d0e-801b-54ff6920f908"
+        "640bf5a5-b341-4d0e-801b-54ff6920f908",
+        "f74e5633-2b6e-4d9a-a62c-7c0503e37cd6"
     ],
     "layers": [
         {
@@ -228,6 +229,30 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_3CC1AA00",
                     "objId": "db197921-c20a-4b03-b6ad-791306c653b6",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "f74e5633-2b6e-4d9a-a62c-7c0503e37cd6",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_3E4A812E",
+                    "x": 64,
+                    "y": 0,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_3E4A812E",
+                    "objId": "74b27871-f6e5-494d-b6e1-af3ee5064890",
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
