@@ -1,7 +1,7 @@
-if (debug_mode && instance_exists(obj_player)) {
-draw_set_color(c_white);
-draw_set_halign(fa_left);
-draw_set_valign(fa_top);
+if (debug_mode &&instance_exists(obj_player)) {
+  draw_set_color(c_white);
+  draw_set_halign(fa_left);
+  draw_set_valign(fa_top);
 
   var wrapStateXStr = "wrapStateX: ";
   var wrapStateYStr = "wrapStateY: ";
@@ -36,11 +36,11 @@ draw_set_valign(fa_top);
     "RealX: " + string(obj_player.x),
     "RealY: " + string(obj_player.y)
   ];
-  var previousTextHeight = 0;
+  var previousTextHeight = room_height;
 
   for (var idx = 0; idx < array_length_1d(drawUs); idx++) {
-    draw_text(0, previousTextHeight, drawUs[idx]);
-    previousTextHeight += string_height(drawUs[idx]);
+    draw_text(0, previousTextHeight - string_height(drawUs[idx]), drawUs[idx]);
+    previousTextHeight -= string_height(drawUs[idx]);
   }
 }
 

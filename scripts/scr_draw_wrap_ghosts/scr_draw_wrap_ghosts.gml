@@ -1,5 +1,9 @@
 ///scr_draw_wrap_ghosts()
-if (wrapStateX != WRAP_STATE.NONE || wrapStateY != WRAP_STATE.NONE) {
+if (!variable_instance_exists(id, "isGhost")) {
+  isGhost = false;
+}
+
+if (!isGhost && (wrapStateX != WRAP_STATE.NONE || wrapStateY != WRAP_STATE.NONE)) {
   var ghostShipX = x;
   var ghostShipY = y;
   switch (wrapStateX) {
@@ -27,5 +31,14 @@ if (wrapStateX != WRAP_STATE.NONE || wrapStateY != WRAP_STATE.NONE) {
     default:
       ghostShipY = y;
   }
-  draw_sprite_ext(sprite_index, -1, ghostShipX, ghostShipY, 1, 1, image_angle, c_white, 1);
+  
+  if (!variable_instance_exists(id, "ghost") || !instance_exists(ghost)) {
+    ghost = instance_copy(false);
+    scr_print("Ghost Spawned", "Ghost", ghost, "Real", id);
+    ghost.isGhost = true;
+    ghost.corporealInstance = id;
+  }
+  
+  ghost.x = ghostShipX;
+  ghost.y = ghostShipY;
 }
