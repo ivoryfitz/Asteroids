@@ -19,6 +19,12 @@ if (global.asteroidMaxSpd < global.asteroidMaxSpdCap) {
 global.numAsteroids += global.clears div 5;
 //Every 10 clears, increase minimum babies
 global.minNumAsteroidBabies += global.clears div 10;
+if (global.minNumAsteroidBabies > global.minNumAsteroidBabiesCap) {
+  global.minNumAsteroidBabies = global.minNumAsteroidBabiesCap;
+}
 //Every 5 clears, increase maximum babies
 global.maxNumAsteroidBabies += global.clears div 5;
+if (global.maxNumAsteroidBabies > global.maxNumAsteroidBabiesCap) {
+  global.maxNumAsteroidBabies = global.maxNumAsteroidBabiesCap;
+}
 

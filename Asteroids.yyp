@@ -854,6 +854,25 @@
                 "resourcePath": "sprites\\spr_player_i\\spr_player_i.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "e22761eb-fdc2-48d3-8f91-2db9f1b4121b",
+            "Value": {
+                "id": "67089daa-7b7d-45d6-8fc8-91d96d49e1b4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\obj_ghost\\obj_ghost.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [
