@@ -28,8 +28,6 @@ switch (obj_player.wrapStateY) {
 var drawUs = [
   wrapStateXStr,
   wrapStateYStr,
-  "GhostX: " + string(obj_player.ghostShipX),
-  "GhostY: " + string(obj_player.ghostShipY),
   "RealX: " + string(obj_player.x),
   "RealY: " + string(obj_player.y)
 ];

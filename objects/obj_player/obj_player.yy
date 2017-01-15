@@ -53,40 +53,10 @@
             "enumb": 32,
             "eventtype": 9,
             "m_owner": "52269155-9866-47d9-a737-d7bfdd58da62"
-        },
-        {
-            "id": "c00de2c9-a047-4519-b77b-b421dabccb0f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 2,
-            "eventtype": 3,
-            "m_owner": "52269155-9866-47d9-a737-d7bfdd58da62"
-        },
-        {
-            "id": "c37a701a-86cf-4903-915c-260ba87d6d74",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "52269155-9866-47d9-a737-d7bfdd58da62"
-        },
-        {
-            "id": "e9d7cb05-8835-4993-a8b8-433c2f1d0622",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "52269155-9866-47d9-a737-d7bfdd58da62"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "f1968dd8-0e60-4509-ade5-6b9fc40693bc",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

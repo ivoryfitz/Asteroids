@@ -1,7 +1,7 @@
-draw_self();
+///scr_draw_wrap_ghosts()
 if (wrapStateX != WRAP_STATE.NONE || wrapStateY != WRAP_STATE.NONE) {
-  ghostShipX = x;
-  ghostShipY = y;
+  var ghostShipX = x;
+  var ghostShipY = y;
   switch (wrapStateX) {
     case WRAP_STATE.WRAP_LEFT:
       ghostShipX = 0 - sprite_width / 2;
@@ -27,5 +27,5 @@ if (wrapStateX != WRAP_STATE.NONE || wrapStateY != WRAP_STATE.NONE) {
     default:
       ghostShipY = y;
   }
-  draw_sprite_ext(spr_player, -1, ghostShipX, ghostShipY, 1, 1, image_angle, c_white, 1);
+  draw_sprite_ext(sprite_index, -1, ghostShipX, ghostShipY, 1, 1, image_angle, c_white, 1);
 }
