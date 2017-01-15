@@ -1,4 +1,4 @@
-if (debug_mode) {
+if (debug_mode && instance_exists(obj_player)) {
 draw_set_color(c_white);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);

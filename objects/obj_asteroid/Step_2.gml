@@ -1,1 +1,0 @@
-scr_set_wrap_state();
