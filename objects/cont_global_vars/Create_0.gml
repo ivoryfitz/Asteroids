@@ -7,7 +7,7 @@ enum WRAP_STATE {
 }
 
 global.score = 0;
-global.lives = 2;
+global.lives = 0;
 global.numAsteroids = 5;
 global.minNumAsteroidBabies = 2;
 global.minNumAsteroidBabiesCap = 2;

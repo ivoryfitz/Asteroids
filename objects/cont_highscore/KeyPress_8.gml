@@ -1,0 +1,1 @@
+nameIdx = max(nameIdx - 1, 0);
