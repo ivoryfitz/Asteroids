@@ -1,1 +1,1 @@
-ini_open("highscore.ini");
+ini_open("highscores.ini");

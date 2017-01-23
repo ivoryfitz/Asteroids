@@ -1025,6 +1025,25 @@
                 "resourcePath": "scripts\\wrapping_adder\\wrapping_adder.yy",
                 "resourceType": "GMScript"
             }
+        },
+        {
+            "Key": "15c4f1db-128f-4688-9091-3e2a5c983ee7",
+            "Value": {
+                "id": "e1367bed-5589-40ea-a932-eeea1d8aef4a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "datafiles_yy\\highscores.ini.yy",
+                "resourceType": "GMIncludedFile"
+            }
         }
     ],
     "room_order": [

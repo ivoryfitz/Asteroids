@@ -3,7 +3,7 @@ nameIdx = 0;
 scoreIdx = 5;
 currentAsciiIdx = 65;
 askForName = false;
-ini_open("highscore.ini");
+ini_open("highscores.ini");
 if (!ini_section_exists("Scores")) {
   scoreIdx = 0;
 } else {
