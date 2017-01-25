@@ -1,1 +1,1 @@
-room_goto(rm_attract);
+if !instance_exists(cont_new_highscore_name_reader) room_goto(rm_attract);

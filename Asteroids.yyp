@@ -984,7 +984,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\\cont_highscore\\cont_highscore.yy",
+                "resourcePath": "objects\\cont_new_highscore_name_reader\\cont_new_highscore_name_reader.yy",
                 "resourceType": "GMObject"
             }
         },

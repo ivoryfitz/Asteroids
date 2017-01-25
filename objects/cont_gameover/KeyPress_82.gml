@@ -1,1 +1,1 @@
-room_restart();
+if !instance_exists(cont_new_highscore_name_reader) room_restart();
