@@ -6,5 +6,5 @@ if (point_in_rectangle(x + xOffset, y + yOffset, 0, 0, room_width, room_height))
   bullet.image_angle = image_angle;
   bullet.speed = 15;
   bullet.direction = image_angle;
-  audio_play_sound(snd_shoot, 0, 0);
+  audio_play_sound(snd_shoot, 0.75, 0);
 }

@@ -1044,6 +1044,272 @@
                 "resourcePath": "datafiles_yy\\highscores.ini.yy",
                 "resourceType": "GMIncludedFile"
             }
+        },
+        {
+            "Key": "f3bd14db-009a-45f1-a932-a560f678e244",
+            "Value": {
+                "id": "32985434-3a20-4fea-bd46-a3915e16c5b2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\\f3bd14db-009a-45f1-a932-a560f678e244.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "869f8f22-9a91-4b77-aa61-b576e932f70a",
+            "Value": {
+                "id": "9131ca70-5124-4640-a826-5e7cd8e2b87b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\\snd_cor_metallicum_01\\snd_cor_metallicum_01.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "65f046cf-94b3-4589-b64f-77d1f7ffc69d",
+            "Value": {
+                "id": "794c395b-a7d6-4b86-a6f0-3bb34483e0ad",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\cont_bg_music\\cont_bg_music.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3255d118-d264-4c94-90a5-6df19ecca5c3",
+            "Value": {
+                "id": "e3aeb9cf-589b-482e-9c06-96a527485ef3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\\snd_cor_metallicum_02\\snd_cor_metallicum_02.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "c38c0fd6-63aa-45ae-a3a3-d7ffe85c7d03",
+            "Value": {
+                "id": "adccce1b-088e-4d81-8d3a-b3189c3981ad",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\\snd_cor_metallicum_03\\snd_cor_metallicum_03.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "c94d326c-b09b-4ae9-8359-ca561af525e3",
+            "Value": {
+                "id": "b8ce13f5-f850-4812-bb90-1c04add14672",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\\snd_cor_metallicum_04\\snd_cor_metallicum_04.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "27606743-76ce-4b96-b9db-dc6120af4b1e",
+            "Value": {
+                "id": "6df6d521-db7d-4c89-ad80-5444ec33cdc9",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\\snd_cor_metallicum_05\\snd_cor_metallicum_05.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "f3d21134-02ac-4a8f-97ae-3e418adabae0",
+            "Value": {
+                "id": "eaf9a5f4-9d59-41c9-93f0-f8ca5fe23e8f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\\snd_cor_metallicum_06\\snd_cor_metallicum_06.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "c0b9cc66-a858-41d3-af9d-877860cd19e1",
+            "Value": {
+                "id": "a32e8228-a85c-4ba5-b774-a76f8df8c7d7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\\snd_cor_metallicum_07\\snd_cor_metallicum_07.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "2078c9d4-122d-4ded-bbdf-fceb9bdd7700",
+            "Value": {
+                "id": "69cde11b-b56b-4c01-81c1-aea0b261d981",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\\snd_cor_metallicum_08\\snd_cor_metallicum_08.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "6cc5bd3a-3b21-4312-a298-fc850422d272",
+            "Value": {
+                "id": "ed7527c7-3a8e-478d-ae22-d9d00923b307",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\\snd_cor_metallicum_09\\snd_cor_metallicum_09.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "19468276-da80-42e3-b594-b6d13c35a78a",
+            "Value": {
+                "id": "bf0e0e87-f266-4a7c-94bf-bb8b2b19ee56",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\\snd_cor_metallicum_10\\snd_cor_metallicum_10.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "6561dee9-f007-422d-b9a4-8bf83cfa35a8",
+            "Value": {
+                "id": "4c91c08a-d33b-41a5-981e-ab5125801a35",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\\snd_cor_metallicum_11\\snd_cor_metallicum_11.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "a5c52ecb-ef79-49e3-af8d-5f475c2914b8",
+            "Value": {
+                "id": "fbb41562-754a-47c1-91c6-065f297e7703",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\\snd_cor_metallicum_12\\snd_cor_metallicum_12.yy",
+                "resourceType": "GMSound"
+            }
         }
     ],
     "room_order": [

@@ -31,3 +31,8 @@ for (var i = 0; i < 10; i++) {
   yPos += 25;
 }
 
+
+draw_set_halign(fa_center);
+draw_set_font(fnt_small);
+var creditString = "Credit to Ozzed.net for Music";
+draw_text(room_width / 2, room_height - string_height(creditString), creditString);
